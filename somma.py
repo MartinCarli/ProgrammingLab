@@ -1,5 +1,7 @@
-number_list = [3,5,6,12]
-somma=0
-for item in number_list:
-    somma= somma+item
-print("La somma e` {}".format(somma))
+def list_sum(the_list):
+    somma=0
+    for item in the_list:
+        somma= somma+item
+    print("La somma e` {}".format(somma))
+
+list_sum([1,4,5])
